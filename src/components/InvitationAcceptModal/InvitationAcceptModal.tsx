@@ -300,10 +300,7 @@ function FailureContent({ error }: FailureContentProps): React.ReactElement {
       </div>
       <div className="error-message">
         {error === 'invalid-invite' ? (
-          <span>
-            The invite request is <u>invalid</u>, please ask the user for a new
-            invite.
-          </span>
+          <span>Test</span>
         ) : error === 'invite-expired' ? (
           <span>
             The invite request has <u>expired</u>, please ask the user for a new
